@@ -1,5 +1,6 @@
 $navbar-default-bg: #08088A;
 
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -19,4 +20,10 @@ $navbar-default-bg: #08088A;
 
 .center {
   text-align: center;
+}
+
+.jumbotron {
+  // background-image: url("paper.gif");
+  background: #de3a3a;
+  color: white;
 }
