@@ -23,7 +23,21 @@ $navbar-default-bg: #08088A;
 }
 
 .jumbotron {
-  // background-image: url("paper.gif");
-  background: #de3a3a;
+  background-image: asset-url("new_cover_page.JPG");
+  background-size: cover;
   color: white;
+  height: 550px;
+  // opacity: 0.6;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
 }
